@@ -1,0 +1,36 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 426px;
+  }
+
+  .container-sm {
+    max-width: 294px;
+  }
+
+  .header-navigation {
+    margin-right: auto;
+  }
+
+  .header-logo {
+    margin-right: 76px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-item {
+    width: 100%;
+    margin-bottom: 72px;
+  }
+
+  .main-list :last-child {
+    margin-bottom: 0px;
+  }
+
+  .team-item {
+    width: 264px;
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+}

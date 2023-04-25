@@ -7,6 +7,12 @@
   --bg-gradient: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -29,6 +35,29 @@ ul {
   margin: 0 auto;
 }
 
+.container-sm {
+  max-width: 294px;
+}
+
+@media (min-device-pixel-ratio),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bacground-imag/modal-dark-1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -45,6 +74,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 button {
@@ -121,11 +151,32 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .logo-web {
   color: var(--logo-colour-first);
 }
 .logo-studio {
   color: var(--logo-colour-second);
+}
+
+.menu-burger-btn {
+  position: relative;
+  background: transparent;
+  display: flex;
+  border-color: transparent;
+  color: #2e2f42;
+  width: 32px;
+  height: 22px;
+}
+
+.burger-icon {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  stroke: currentColor;
 }
 
 .header-list {
@@ -272,6 +323,12 @@ address {
   box-sizing: content-box;
 }
 .main-tittle {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  opacity: 0;
+  outline-offset: 0;
 }
 .main-list {
   display: flex;
