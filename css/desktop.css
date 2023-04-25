@@ -145,12 +145,12 @@
     width: calc((100% - 72px) / 4);
   }
 
-  .what-we-doing-section {
+  .about-section {
     padding: 0 0 120px;
     display: block;
   }
 
-  .what-we-doing-title {
+  .about-title {
     display: block;
     font-size: 36px;
     line-height: 1.11;
@@ -160,26 +160,26 @@
     margin-bottom: 72px;
   }
 
-  .what-we-doing-list {
+  .about-list {
     display: flex;
     column-gap: 24px;
   }
 
-  .what-we-doing-item {
+  .about-item {
     display: block;
     max-width: 100%;
     height: auto;
     width: calc((100% - 48px) / 3);
   }
 
-  .what-we-doing-img,
-  .our-team-img {
+  .about-img,
+  .team-img {
     display: block;
     max-width: 100%;
     height: auto;
   }
 
-  .our-team-list {
+  .team-list {
     display: flex;
     column-gap: 24px;
     row-gap: 64px;
@@ -187,7 +187,7 @@
     max-width: 100%;
   }
 
-  .our-team-item {
+  .team-item {
     width: calc((100% - 75px) / 4);
   }
 

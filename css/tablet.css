@@ -109,7 +109,7 @@
     row-gap: 72px;
   }
 
-  .our-team-list {
+  .team-list {
     display: flex;
     column-gap: 24px;
     row-gap: 64px;
@@ -117,7 +117,7 @@
     max-width: 552px;
   }
 
-  .our-team-item {
+  .team-item {
     width: calc((100% - 24px) / 2);
   }
 
