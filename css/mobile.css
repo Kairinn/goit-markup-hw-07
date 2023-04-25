@@ -7,29 +7,77 @@
     max-width: 294px;
   }
 
-  .header-navigation {
-    margin-right: auto;
+  .our-team-item {
+    width: 264px;
   }
 
-  .header-logo {
-    margin-right: 76px;
+  @media screen and (min-width: 320px) {
+    .modal {
+      width: 392px;
+      height: 584px;
+    }
+
+    .menu-telephon {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.2;
+    }
+  }
+
+  .menu-social-list {
+    margin-bottom: 0;
+  }
+
+  .menu-social-list :not(:last-child) {
+    margin-right: 56px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .main-item {
+  .adventages-item {
     width: 100%;
     margin-bottom: 72px;
   }
 
-  .main-list :last-child {
+  .adventages-list :last-child {
     margin-bottom: 0px;
   }
 
-  .team-item {
+  .our-team-item {
     width: 264px;
     margin-bottom: 72px;
   }
+
+  .footer-section {
+    display: block;
+    width: 100%;
+  }
+
+  .footer-logo-section {
+    min-width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.footer-social-section {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-input {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.footer-form-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-btn {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1199px) {

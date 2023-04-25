@@ -3,11 +3,11 @@
     max-width: 766px;
   }
 
-  .main {
+  .section {
     padding: 96px 0 96px;
   }
 
-  .main-sm {
+  .section-sm {
     padding: 96px 0 96px;
   }
 
@@ -17,6 +17,177 @@
 
   .header-navigation {
     margin-right: auto;
+  }
+
+  .header-adress-list {
+    display: block;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .header-logo {
+    margin-right: 76px;
+  }
+
+  .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+    position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-list {
+    display: flex;
+  }
+
+  .header-mail {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .header-adress {
+  }
+
+  .header-telephon {
+    display: block;
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: #434455;
+  }
+
+  .header-navigation {
+    margin-right: auto;
+  }
+
+  .header {
+    padding: 16px 0;
+  }
+
+  .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    position: relative;
+  }
+
+  .header-item {
+    margin-bottom: 0;
+  }
+
+  .adventages-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    min-width: 264px;
+    text-align: left;
+  }
+
+  .advantages-icon {
+    display: none;
+  }
+
+  .adventages-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .adventages-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 72px;
+  }
+
+  .our-team-list {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 64px;
+    flex-wrap: wrap;
+    max-width: 552px;
+  }
+
+  .our-team-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .customers-list {
+  }
+
+  .container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+  }
+
+  .footer-logo {
+    text-align: left;
+  }
+
+  .footer-logo-section {
+    min-width: 264px;
+    margin-left: 0;
+  }
+
+  .footer-social-title {
+    text-align: left;
+  }
+
+  .footer-form-title {
+    text-align: left;
+  }
+
+  .footer-social-section {
+    margin-left: 24px;
+  }
+
+  .footer-section {
+    display: flex;
+  }
+
+  .footer-form-group {
+    display: flex;
+  }
+
+  .footer-input {
+    min-width: 264px;
+    margin-bottom: 0px;
+  }
+
+  .footer-btn {
+    margin-left: 24px;
+  }
+
+  .hero-head {
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  .customers-item {
+    width: 168px;
+    height: 88px;
+  }
+
+  .hero-saction {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bacground-imag/tablet-1x.jpg);
+  }
+
+  .modal {
+    width: 408px;
   }
 
   .menu-burger-btn {
@@ -40,102 +211,21 @@
     fill: currentColor;
   }
 
-  .header-list {
-    display: flex;
-  }
-
-  .header-email {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.1;
-    display: block;
-    margin-bottom: 12px;
-  }
-
-  .header-adress {
-  }
-
-  .header-tel {
-    display: block;
-    color: var(--gray);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.1;
-    letter-spacing: 0.04em;
-    color: #434455;
-  }
-
-  .header-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    position: relative;
-  }
-
-  .header-item {
-    margin-bottom: 0;
-  }
-
-  .main-item-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    min-width: 264px;
-    text-align: left;
-  }
-
-  .main-item-wrap {
+  .nav-wrap-menu {
+    max-width: 479px;
+    background: #ffffff;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    width: 100vh;
+    padding: 24px 24px 40px 40px;
     display: none;
-  }
-
-  .main-item {
-    width: calc((100% - 24px) / 2);
-  }
-
-  .main-list {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    row-gap: 72px;
-  }
-
-  .contact-list {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/bacground-imag/tablet-1x.jpg);
-  }
-
-  .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
-  }
-
-  .team-list {
-    display: flex;
-    column-gap: 24px;
-    row-gap: 64px;
-    flex-wrap: wrap;
-    max-width: 552px;
-  }
-
-  .team-item {
-    width: calc((100% - 24px) / 2);
   }
 }
 
 @media (min-device-pixel-ratio),
   (min-resolution: 192dpi),
   (min-resolution: 2dpx) {
-  .hero {
+  .hero-saction {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
